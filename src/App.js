@@ -5,25 +5,25 @@ function App() {
     {
       id: "e1",
       title: "Toilet Paper",
-      amount: "294.67",
+      amount: "294",
       date: new Date(2023, 1, 5),
     },
     {
       id: "e2",
       title: "Car Insurance",
-      amount: "304.67",
+      amount: "304",
       date: new Date(2023, 2, 10),
     },
     {
       id: "e3",
       title: "New TV",
-      amount: "314.67",
+      amount: "314",
       date: new Date(2023, 3, 15),
     },
     {
       id: "e4",
       title: "New Desk",
-      amount: "324.67",
+      amount: "324",
       date: new Date(2023, 4, 20),
     },
   ];
