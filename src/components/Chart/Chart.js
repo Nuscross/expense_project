@@ -1,5 +1,5 @@
 import ChartBar from "./ChartBar";
-import "./Chart.js";
+import "./Chart.css";
 
 function Chart(props) {
   const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
@@ -7,7 +7,7 @@ function Chart(props) {
 
   return (
     <div className="chart">
-      {props.datePoints.map((dataPoint) => (
+      {props.dataPoints.map((dataPoint) => (
         <ChartBar
           key={dataPoint.label}
           value={dataPoint.value}
